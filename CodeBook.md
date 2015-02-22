@@ -10,7 +10,6 @@ Getting-And-Cleaning-Data-Course-Project
   * 'test/X_test.txt': Test set.
   * 'test/y_test.txt': Test labels.
   * 'test/subject_test.txt': ID's of subjects in the training data
-
 2. If the package "reshape2" is not installed the script installs it in order to run.
 3. The script reads all the files into data frames and adds the corresponding headers to each of them.
 4. Merges all the train files into a data frame called "train_data" by using _cbind_.
